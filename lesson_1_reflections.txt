@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+    
+    I took a look at all of the + & - annotations. The tool is called diff -u one_file second_file. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Can see if there are any lines that have changed whenever  A giant undo button for your project. Can save other versions and compare other versions. Can collaborate with other people. Like typing - a whole new system to keep track of your files. Version Control is used at all companies. Use it for all of your projects because it can be addicting. Can restore any version that you may want to restore.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+	
+	Pro is that you do not have unnecessary files committed that did not have any significance. Pros is also that you can supply a useful commit message. Con is that you may forget to save a version. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+	
+	Saving multiple files allows you to see each logical change and what occurred in each of those changes. Multiple files may be intertwined and when one is changed the other should indicate change too as a snapshot in time. The files are relevant to each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows you all of the different versions/commits of your file and the commit message/serial/author/date. The git diff command works on two particular serial commit numbers. so you write git diff commit1_id commit2_id
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You always have the prior commit that worked well so you may always restore that 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To clone a repository 
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log will literally give me all of the commits for that repository/file with its serial/date/author/comment 
+	git diff will allow you to compare two commit serial ids
+
+	git log 
+	git diff commit1_id commit2_id
+	git clone <url> #this will allow us to clone an entire repository 
