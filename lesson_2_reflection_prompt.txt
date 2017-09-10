@@ -8,7 +8,12 @@ git add 'the name of the file'
 	This adds the file to be added to the staging area
 
 git commit
-	adds whatever was in the staging area to be committed
+	adds whatever was in the staging area to be committed and then add a commit message that represents that change
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-	
+
+	When you and collaboratoirs want to work on similar master branch but not have the work convolute. Branches help things stay separate and allow for different logical elements to be adjusted - make a new branch for every feature and bug fix. each can checkout their own branch. Once a feature is made, can  update master to point to tip of new branch or combine it with current master using merge feature  
+
+How do the diagrams help you visualize the branch structure?
+	Allows you to see what is going on in terms of commit structure
+
