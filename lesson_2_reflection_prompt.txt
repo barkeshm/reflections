@@ -19,3 +19,6 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	The merged branch will have all of the commits from the two branches recorded in the master branch which has the new commit. The merged branch can now be deleted. The resulting commit will have files that the two last commits had in common. Then if there seems to be a subtraction from the origin of the divergence, the newest merged commit will omit that and instead keep the newest developmnents on both ends. We represent it the way we do because both branches that were merged together end up being the parent commits.
 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	Manually allows for errors and Git's automatic merging streamlines things and allows for a lot of control for the user to be sure what should be included.  
+
